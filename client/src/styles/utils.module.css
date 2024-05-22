@@ -1,0 +1,33 @@
+.blockCenter {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.width100 {
+  width: 100%;
+}
+.menuFlexDown {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.flexWide {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+}
+.shrinkSpace {
+  margin-top: 0.5rem; /* Adjust as needed */
+}
+
+@media (min-width: 576px) {
+  .shrinkSpace {
+    margin-top: 0;
+  }
+}

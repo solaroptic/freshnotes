@@ -1,0 +1,28 @@
+.noteCard1 {
+  background-color: #fbfbfb;
+  border-top: #111 8px solid;
+  border-bottom: #111 8px solid;
+}
+.noteCard2 {
+  border-color: #3f65f7;
+}
+.noteCard3 {
+  border-color: #7200b8;
+}
+.noteCard4 {
+  border-color: #ed1414;
+}
+
+.cardText {
+  white-space: pre-line;
+}
+
+.cardBody {
+  overflow: hidden;
+  mask-image: linear-gradient(180deg, #000 60%, transparent);
+}
+.cardFoot {
+  background: #f6f6f6;
+}
+
+/* #ebe9e9 #7200b8   #5c2bd3   #3f65f7*/

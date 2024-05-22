@@ -1,0 +1,53 @@
+.notesPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.notesGrid {
+  width: 100%;
+}
+
+.note {
+  height: 200px;
+  min-width: 150px;
+  transition: box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+}
+.note:hover {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.logoDance {
+  position: absolute;
+  top: 30%;
+  margin-top: 5%;
+  width: 20%;
+  animation: dance 2.8s ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes dance {
+  0% {
+    opacity: 0;
+    transform: rotate(0deg);
+    z-index: 1;
+  }
+  25% {
+  }
+  50% {
+    opacity: 0.8;
+  }
+  75% {
+    opacity: 0;
+    z-index: 1;
+  }
+  80% {
+    transform: rotate(360deg);
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    z-index: -1;
+  }
+}
