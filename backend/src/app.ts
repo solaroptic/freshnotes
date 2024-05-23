@@ -16,7 +16,7 @@ const app = express();
 
 if (env.NODE_ENV === "production") {
   const __dirname = path.resolve();
-  app.use(express.static(path.join(__dirname, "client/dist")));
+  app.use(express.static(path.join(__dirname, "../client/dist")));
   app.get("*", (req, res) =>
     res.sendFile(path.resolve(__dirname, "client", "dist", "index.html"))
   );
