@@ -43,7 +43,10 @@ const app = (0, express_1.default)();
 if (validateEnv_1.default.NODE_ENV === "production") {
     const __dirname = path_1.default.resolve();
     app.use(express_1.default.static(path_1.default.join(__dirname, "../client/dist")));
-    app.get("*", (req, res) => res.sendFile(path_1.default.resolve(__dirname, "..", "client", "dist", "index.html")));
+    app.get(/^(?!\/api).\*/, (req, res) => res.sendFile(path_1.default.resolve(__dirname, "..", "client", "dist", "index.html")));
+    // app.get("*", (req, res) =>
+    //   res.sendFile(path.resolve(__dirname, "..", "client", "dist", "index.html"))
+    // );
 }
 else {
     app.get("/", (req, res) => res.send("server is ready"));
