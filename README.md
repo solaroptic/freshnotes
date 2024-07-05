@@ -3,6 +3,7 @@
 ## TypeScript/React/Node/MongoDb
 
 This project was primarily to practice Typescript and to further my experience with MondoDb and Node.
+This is maybe the only project almost entirely based on a tutorial: this one by Florian Walthers. His form and standards look more solid to me than most, and I feel there's benefit to practice running through a project how it might be represented in the real-world.
 
 Additionally, I was able to get some experience with:
 

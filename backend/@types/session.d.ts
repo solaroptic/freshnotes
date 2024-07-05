@@ -5,3 +5,4 @@ declare module "express-session" {
     userId: mongoose.Types.ObjectId;
   }
 }
+// what this does is it extends the SessionData interface from the express-session module, adding a userId property of type mongoose.Types.ObjectId

@@ -112,4 +112,5 @@
   "ts-node": {
     "files": true
   }
+  // this last object is for the ts-node package to work with the tsconfig.json file and the .ts files
 }

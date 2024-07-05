@@ -27,7 +27,12 @@ body {
   margin: 0;
   /* display: flex;
   place-items: center; */
-  background-color: #c7c7c7;
+  background: rgb(199, 199, 199);
+  background: linear-gradient(
+    90deg,
+    rgba(199, 199, 199, 1) 0%,
+    rgba(100, 100, 100, 1) 120%
+  );
   min-width: 320px;
   min-height: 100vh;
 }

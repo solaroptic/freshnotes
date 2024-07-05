@@ -9,3 +9,4 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <App />
   </React.StrictMode>
 );
+// the exclamation mark is a non-null assertion operator
